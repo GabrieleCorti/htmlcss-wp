@@ -35,18 +35,50 @@ a{
   color: #858585;
 }
 /* fine intestazione */
-
+/* sezione banner */
 .section-1 {
   margin-top: 3%;
+  position: relative;
 }
 
 .banner{
+  display: block;
   width: 100%;
-  height: 450px;
+  height: 454px;
   object-fit: cover;
   border-radius: 10px;
 }
 
+.section-1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.article {
+  position: absolute;
+  width: 54%;
+  bottom: 0;
+  bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  z-index: 1;
+  margin-left: 35px;
+  margin-bottom: 70px;
+}
+
+
+h2 {
+  font-size: 25px;
+  font-weight: normal;
+}
+/* fine sezione banner */
 .section-2 {
   margin-top: 3%;
   /* height: 46%; */
