@@ -21,7 +21,7 @@
 /* intestazione */
 .logo {
   width: 17%;
-  border-right: 1px solid #858585;
+  border-right: 1px solid rgb(0,0,0,0.2);
   padding-right: 15px;
 }
 
@@ -38,7 +38,7 @@ a {
 /* fine intestazione */
 /* sezione banner */
 .section-1 {
-  margin-top: 3%;
+  margin: 40px 0;
   position: relative;
 }
 
@@ -80,17 +80,8 @@ h2 {
   font-weight: normal;
 }
 /* fine sezione banner */
-.section-2 {
-  margin-top: 3%;
-  /* height: 46%; */
-
-}
 /* sezione-2 */
 /* intestazione */
-.intestazione {
-  margin-bottom: 1%;
-}
-
 .intestazione h2 {
   font-weight: bold;
   font-size: 30px;
@@ -100,6 +91,10 @@ h2 {
   color: #858585;
 }
 /* fine intestazione */
+
+.riga {
+  margin: 40px 0;
+}
 .left {
   position: relative;
   width: 23%;
@@ -147,6 +142,8 @@ h2 {
 
 footer {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
 }
 
 .hart {
