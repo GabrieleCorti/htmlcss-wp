@@ -96,7 +96,7 @@ h2 {
   font-size: 30px;
 }
 
-.intestazione span {
+.intestazione span, .rubrica-content {
   color: #858585;
 }
 /* fine intestazione */
@@ -106,22 +106,19 @@ h2 {
   float: left;
 }
 
-.img-left {
+.riga img {
+  object-fit: cover;
+  height: 185px;
   display: block;
   width: 100%;
   border-radius: 10px;
 }
 
-.riga img {
-  object-fit: cover;
-  height: 185px;
-}
-
-.wraper{
+.wrapper {
   position: relative;
 }
 
-.wraper::after {
+.wrapper::after {
   content: "";
   display: block;
   position: absolute;
@@ -136,18 +133,22 @@ h2 {
 .center {
   width: 50%;
   float: left;
-  background-color: darkblue;
   margin: 0 2%;
 }
 
 .right {
   width: 23%;
   float: left;
-  background-color: darkblue;
+}
+
+.titolo-rubrica {
+  font-weight: lighter;
 }
 
 footer {
-  margin-top: 1%;
-  background-color: purple;
-  height: 5%;
+  text-align: center;
+}
+
+.hart {
+  color: red;
 }
