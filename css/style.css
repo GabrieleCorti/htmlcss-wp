@@ -26,9 +26,13 @@
 
 li {
   display: inline-block;
+  padding: 30px 5px 0 0;
+}
+
+a{
+  text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   color: #858585;
-  padding: 30px 5px 0 0;
 }
 /* fine intestazione */
 
