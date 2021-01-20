@@ -15,6 +15,7 @@
 .container {
   width: 78%;
   margin: auto;
+  font-family: 'Montserrat', sans-serif;
   /* background-color: green; */
 }
 /* intestazione */
@@ -31,7 +32,7 @@ li {
 
 a{
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   color: #858585;
 }
 /* fine intestazione */
@@ -66,7 +67,7 @@ a{
   width: 54%;
   bottom: 0;
   bottom: 0;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   color: white;
   z-index: 1;
   margin-left: 35px;
@@ -82,13 +83,20 @@ h2 {
 .section-2 {
   margin-top: 3%;
   /* height: 46%; */
-  background-color: lightblue;
+
 }
 
 .intestazione {
-  background-color: darkblue;
-  height: 50px;
   margin-bottom: 1%;
+}
+
+.intestazione h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.intestazione span {
+  color: #858585;
 }
 
 .left {
