@@ -13,14 +13,22 @@
 /* fine utility */
 
 .container {
-  width: 80%;
+  width: 78%;
   margin: auto;
   /* background-color: green; */
 }
 
+.logo {
+  width: 17%;
+  border-right: 1px solid #858585;
+  padding-right: 15px;
+}
+
 li {
   display: inline-block;
-  
+  font-family: 'Montserrat', sans-serif;
+  color: #858585;
+  padding: 30px 5px 0 0;
 }
 
 .section-1 {
