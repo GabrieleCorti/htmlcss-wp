@@ -14,14 +14,13 @@
 
 .container {
   width: 80%;
-  height: 1024px;
   margin: auto;
   /* background-color: green; */
 }
 
-header{
-  height: 5%;
-  background-color: pink;
+li {
+  display: inline-block;
+  
 }
 
 .section-1 {
