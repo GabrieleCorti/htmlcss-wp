@@ -1,0 +1,68 @@
+/* utility */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* fine utility */
+
+.container {
+  width: 80%;
+  height: 1024px;
+  margin: auto;
+  /* background-color: green; */
+}
+
+header{
+  height: 5%;
+  background-color: pink;
+}
+
+.section-1 {
+  margin-top: 2%;
+  height: 38%;
+  background-color: yellow;
+}
+
+.section-2 {
+  margin-top: 3%;
+  /* height: 46%; */
+  background-color: lightblue;
+}
+
+.intestazione {
+  background-color: darkblue;
+  height: 50px;
+  margin-bottom: 1%;
+}
+
+.left {
+  width: 23%;
+  float: left;
+  background-color: darkblue;
+}
+
+.center {
+  width: 50%;
+  float: left;
+  background-color: darkblue;
+  margin: 0 2%;
+}
+
+.right {
+  width: 23%;
+  float: left;
+  background-color: darkblue;
+}
+
+footer {
+  margin-top: 1%;
+  background-color: purple;
+  height: 5%;
+}
