@@ -30,7 +30,7 @@ li {
   padding: 30px 5px 0 0;
 }
 
-a{
+a {
   text-decoration: none;
   /* font-family: 'Montserrat', sans-serif; */
   color: #858585;
@@ -85,7 +85,8 @@ h2 {
   /* height: 46%; */
 
 }
-
+/* sezione-2 */
+/* intestazione */
 .intestazione {
   margin-bottom: 1%;
 }
@@ -98,11 +99,38 @@ h2 {
 .intestazione span {
   color: #858585;
 }
-
+/* fine intestazione */
 .left {
+  position: relative;
   width: 23%;
   float: left;
-  background-color: darkblue;
+}
+
+.img-left {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.riga img {
+  object-fit: cover;
+  height: 185px;
+}
+
+.wraper{
+  position: relative;
+}
+
+.wraper::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 10px;
 }
 
 .center {
