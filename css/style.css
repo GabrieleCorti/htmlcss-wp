@@ -95,11 +95,6 @@ h2 {
 .riga {
   margin: 40px 0;
 }
-.left {
-  position: relative;
-  width: 23%;
-  float: left;
-}
 
 .riga img {
   object-fit: cover;
@@ -124,6 +119,13 @@ h2 {
   background-color: rgba(0,0,0,0.2);
   border-radius: 10px;
 }
+
+.left {
+  position: relative;
+  width: 23%;
+  float: left;
+}
+
 
 .center {
   width: 50%;
